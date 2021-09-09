@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  web:
+    container_name: FetchTwitter
+    build: ./FetchTwitter #relative path 
+    # tty: true
+    ports:
+      - "8080:8000"
+    command: > 
+          python manage.py runserver 0.0.0.0:8000
