@@ -9,3 +9,5 @@ Install docker-compose using below command
 pip install docker-compose
 
 then run the docker-compose.yml file to start the server rest dependency will automatically downloaded.
+
+Note: Secret keys have changed have changed while change.
